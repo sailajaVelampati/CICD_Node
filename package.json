@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "jshint": "^2.11.1"
   }
 }
