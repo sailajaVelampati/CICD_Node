@@ -1,0 +1,28 @@
+{
+  "name": "nodejs201",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sailaja velampati",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/JSON"
+    ],
+    "ext": "js, css"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
