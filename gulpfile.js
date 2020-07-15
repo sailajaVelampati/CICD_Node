@@ -3,7 +3,7 @@
 let gulp = require('gulp');
 let jshint = require('gulp-jshint');
 
-gulp.task('default', ['jshint', 'test', 'serve']);
+gulp.task('default', gulp.series('test', 'serve'));
 
 gulp
   .task('jshint', () => {
