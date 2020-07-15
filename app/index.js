@@ -2,7 +2,7 @@ var express = require('Express');
 const bodyParser = require('body-parser');
 const path = require('path');
 var app = express();
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 5000;
 var products = require('./routes');
 
 app.set('views', path.join(__dirname, 'views'));
@@ -17,9 +17,8 @@ app.get('/', (req, res) => {
 });
 app.get('/favicon.ico', (req, res) => res.status(204));
 app.use('/productservice', products);
-app.set('port', process.env.PORT || 5000);
 
 // Start node server
 app.listen(port, function () {
-  console.log('Node server is running on port ' + app.get('port'));
+  console.log('Node server is running on port ' + port);
 });
