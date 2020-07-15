@@ -15,7 +15,7 @@ app.use(express.json({ extended: false }));
 app.get('/', (req, res) => {
   res.render('index', { title: 'Account Summary' });
 });
-
+app.get('/favicon.ico', (req, res) => res.status(204));
 app.use('/productservice', products);
 app.set('port', process.env.PORT || 5000);
 
