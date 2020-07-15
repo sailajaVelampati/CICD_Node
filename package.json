@@ -2,9 +2,9 @@
   "name": "nodejs201",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "nodemon app/index.js",
     "test": "mocha"
   },
   "author": "sailaja velampati",
