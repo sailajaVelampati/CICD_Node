@@ -1,0 +1,12 @@
+[
+  {
+    "productId": 1,
+    "productname": "Dove",
+    "productcode": "DV-12",
+    "description": "Dove soap",
+    "releasedate": 1590578817222,
+    "price": 12,
+    "rating": 3,
+    "imageurl": "some brroken url"
+  }
+]
